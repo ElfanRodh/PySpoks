@@ -1,0 +1,37 @@
+[
+	{"kategori":"Inovasi",
+	"sub_kategori":[
+		{"nama_sub":"banyak"},
+		{"nama_sub":"baru"},
+		{"nama_sub":"penting"},
+		{"nama_sub":"modern"},
+		{"nama_sub":"kreatif"}
+	]},
+	{"kategori":"Fasilitas",
+	"sub_kategori":[
+		{"nama_sub":"layak"},
+		{"nama_sub":"bersih"},
+		{"nama_sub":"lengkap"},
+		{"nama_sub":"nyaman"}
+	]},
+	{"kategori":"Layanan",
+	"sub_kategori":[
+		{"nama_sub":"mewah"},
+		{"nama_sub":"mudah"},
+		{"nama_sub":"puas"}
+	]},
+	{"kategori":"Mutu",
+	"sub_kategori":[
+		{"nama_sub":"cepat"},
+		{"nama_sub":"bagus"},
+		{"nama_sub":"spesial"},
+		{"nama_sub":"baik"}
+	]},
+	{"kategori":"Produktivitas",
+	"sub_kategori":[
+		{"nama_sub":"tinggi"},
+		{"nama_sub":"aktif"},
+		{"nama_sub":"stabil"}
+	]}
+]
+
