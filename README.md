@@ -1,12 +1,13 @@
 Python SPOKS
 ===============
 
-Library Sistem Pemeringkat Otomatis Berbasis Kata Sifat untuk Bahasa Perograman Python
+Library Sistem Pemeringkat Otomatis Berbasis Kata Sifat untuk Bahasa Pemrograman Python
 
 Cara Install
 -------------
 
-PySpoks dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan perintah berikut di terminal/command prompt : `pip install PySpoks`
+PySpoks dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan perintah berikut di terminal/command prompt : 
+`pip install PySpoks`
 
 Penggunaan
 -----------
