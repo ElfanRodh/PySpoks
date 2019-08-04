@@ -28,7 +28,7 @@ print(output)
 # {hasil : ['sejuk', 'luas', 'indah', 'ramah']}
 
 Lisensi
---------
+-----------
 
 Lisensi PySastrawi adalah MIT License (MIT).
 
