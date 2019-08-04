@@ -26,11 +26,11 @@ output   = spoks.preproses(sentence)
 
 print(output)
 # {hasil : ['sejuk', 'luas', 'indah', 'ramah']}
------------
+```
 
 Lisensi
------------
+--------
 
-Lisensi PySastrawi adalah MIT License (MIT).
+Lisensi Sastrawi Python adalah MIT License (MIT).
 
-Project ini mengandungTesaurus Bahasa Indonesia dari KBBI
+Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahas Indonesia
