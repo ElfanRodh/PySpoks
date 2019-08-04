@@ -4,8 +4,8 @@ PySpoks.egg-info/PKG-INFO
 PySpoks.egg-info/SOURCES.txt
 PySpoks.egg-info/dependency_links.txt
 PySpoks.egg-info/top_level.txt
+spoks/Spoks.py
 spoks/__init__.py
-spoks/spoks.py
 spoks/data/adjective.json
 spoks/data/aspek.json
 spoks/data/aspek2.json

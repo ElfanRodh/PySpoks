@@ -1,16 +1,71 @@
 Metadata-Version: 2.1
 Name: PySpoks
-Version: 0.0.1
+Version: 0.0.4
 Summary: Sistem Pemeringkat Otomatis Berbasis Kata Sifat
 Home-page: https://github.com/ElfanRodh/PySpoks
 Author: ElfanRodh
 Author-email: elfanapoywali@gmail.com
 License: UNKNOWN
-Description: # Example Package
+Description: Python SPOKS
+        ===============
         
-        This is a simple example package. You can use
-        <!-- [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/) -->
-        to write your content.
+        Library Sistem Pemeringkat Otomatis Berbasis Kata Sifat untuk Bahasa Pemrograman Python
+        
+        Cara Install
+        -------------
+        
+        PySpoks dapat di-*install* menggunakan [pip](https://docs.python.org/3.6/installing/index.html), dengan menjalankan perintah berikut di terminal/command prompt : 
+        `pip install PySpoks`
+        
+        Penggunaan
+        -----------
+        
+        Jalankan baris-baris kode berikut di *Python interactive terminal* :
+        
+        ```python
+        # import class
+        import spoks
+        
+        # create objek
+        spoks = spoks.Spoks()
+        
+        # preprocess text
+        sentence = 'Indonesia adalah negara yang luas, indah dan sejuk. Selain itu masyarakatnya ramah'
+        output   = spoks.preproses(sentence)
+        
+        print(output)
+        # {hasil : ['sejuk', 'luas', 'indah', 'ramah']}
+        
+        # add kategori peratingan
+        kategori = ['Kualitas', 'Harga']
+        kat_in = spoks.input_kategori(kategori)
+        
+        # add sub kategori peratingan
+        subs = ['bagus', 'menarik', 'kreatif']
+        sub_in = spoks.input_sub('Kualitas', subs)
+        
+        # pemeringkat otomatis
+        output = spoks.preproses(sentence)
+        rat = spoks.spoks(output['hasil'])
+        
+        print(rat)
+        # 'scv' = Nilai tiap Sub Kategori
+        # 'c'   = Nilai tiap Kategori
+        # 'avg' = Rata-rata Nilai Kategori
+        # 'cr'  = Rating Kategori
+        # 'fr'  = Final Rating / Rating Keseluruhan
+        # 'aspek' = Kategori Penilaian
+        
+        ```
+        
+        Lisensi
+        --------
+        
+        Lisensi Sastrawi Python adalah MIT License (MIT).
+        
+        Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa Indonesia
+        
+        [Github-PySpoks](https://github.com/ElfanRodh/PySpoks)
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

@@ -56,3 +56,8 @@ Lisensi
 Lisensi Sastrawi Python adalah MIT License (MIT).
 
 Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa Indonesia
+<<<<<<< HEAD
+
+[Github-PySpoks](https://github.com/ElfanRodh/PySpoks)
+=======
+>>>>>>> c0e87457ce607e58d0a2a0bcad6975d9ff969027

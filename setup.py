@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PySpoks",
-    version="0.0.1",
+    version="0.0.4",
     author="ElfanRodh",
     author_email="elfanapoywali@gmail.com",
     description="Sistem Pemeringkat Otomatis Berbasis Kata Sifat",
