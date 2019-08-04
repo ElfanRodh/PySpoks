@@ -26,6 +26,7 @@ output   = spoks.preproses(sentence)
 
 print(output)
 # {hasil : ['sejuk', 'luas', 'indah', 'ramah']}
+-----------
 
 Lisensi
 -----------
