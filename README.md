@@ -26,6 +26,27 @@ output   = spoks.preproses(sentence)
 
 print(output)
 # {hasil : ['sejuk', 'luas', 'indah', 'ramah']}
+
+# add kategori peratingan
+kategori = ['Kualitas', 'Harga']
+kat_in = spoks.input_kategori(kategori)
+
+# add sub kategori peratingan
+subs = ['bagus', 'menarik', 'kreatif']
+sub_in = spoks.input_sub('Kualitas', subs)
+
+# pemeringkat otomatis
+output = spoks.preproses(sentence)
+rat = spoks.spoks(output['hasil'])
+
+print(rat)
+# 'scv' = Nilai tiap Sub Kategori
+# 'c'   = Nilai tiap Kategori
+# 'avg' = Rata-rata Nilai Kategori
+# 'cr'  = Rating Kategori
+# 'fr'  = Final Rating / Rating Keseluruhan
+# 'aspek' = Kategori Penilaian
+
 ```
 
 Lisensi
@@ -33,4 +54,4 @@ Lisensi
 
 Lisensi Sastrawi Python adalah MIT License (MIT).
 
-Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahas Indonesia
+Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa Indonesia
