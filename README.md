@@ -53,7 +53,7 @@ print(rat)
 Lisensi
 --------
 
-Lisensi Sastrawi Python adalah MIT License (MIT).
+Lisensi PySpoks adalah MIT License (MIT).
 
 Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa Indonesia
 <<<<<<< HEAD
