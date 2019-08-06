@@ -61,5 +61,6 @@ Lisensi PySpoks adalah MIT License (MIT).
 
 Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa Indonesia
 
-[Github-PySpoks](https://github.com/ElfanRodh/PySpoks)
+Kontributor
 --------
+Dr. Eng. Faisal Rahutomo, ST., M. Kom 
