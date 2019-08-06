@@ -50,14 +50,16 @@ print(rat)
 
 ```
 
+Data Lemma Kata Sifat
+--------
+Data lemma kata sifat dalam penelitian ini dapat di lihat dan di edit dalam file `build/lib/data/adjective.json`
+
 Lisensi
 --------
 
 Lisensi PySpoks adalah MIT License (MIT).
 
 Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa Indonesia
-<<<<<<< HEAD
 
 [Github-PySpoks](https://github.com/ElfanRodh/PySpoks)
-=======
->>>>>>> c0e87457ce607e58d0a2a0bcad6975d9ff969027
+--------
