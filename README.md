@@ -64,6 +64,9 @@ Project ini mengandung lemma kata sifat Bahasa Indonesia dari Tesaurus Bahasa In
 Kontributor
 --------
 Faisal Rahutomo
+
 Diana Mayangsari Ramadhani
+
 Yushintia Pramitarini
+
 M. Elfa Rodhian Putra
